@@ -36,3 +36,60 @@ export const workExperiences = [
     skills: ["HTML", "CSS", "JavaScript"],
   },
 ];
+
+export const projects = [
+  {
+    name: "Abhijith's project",
+    image: "deepthi-cover-2.JPG",
+    description:
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident eum explicabo, architecto assumenda inventore non earum cumque magnam facilis deserunt.",
+  },
+  {
+    name: "Abhijith's project",
+    image: "deepthi-cover-2.JPG",
+    description:
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident eum explicabo, architecto assumenda inventore non earum cumque magnam facilis deserunt.",
+  },
+  {
+    name: "Abhijith's project",
+    image: "deepthi-cover-2.JPG",
+    description:
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident eum explicabo, architecto assumenda inventore non earum cumque magnam facilis deserunt.",
+  },
+  {
+    name: "Abhijith's project",
+    image: "deepthi-cover-2.JPG",
+    description:
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident eum explicabo, architecto assumenda inventore non earum cumque magnam facilis deserunt.",
+  },
+  {
+    name: "Abhijith's project",
+    image: "deepthi-cover-2.JPG",
+    description:
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident eum explicabo, architecto assumenda inventore non earum cumque magnam facilis deserunt.",
+  },
+  {
+    name: "Abhijith's project",
+    image: "deepthi-cover-2.JPG",
+    description:
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident eum explicabo, architecto assumenda inventore non earum cumque magnam facilis deserunt.",
+  },
+  {
+    name: "Abhijith's project",
+    image: "deepthi-cover-2.JPG",
+    description:
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident eum explicabo, architecto assumenda inventore non earum cumque magnam facilis deserunt.",
+  },
+  {
+    name: "Abhijith's project",
+    image: "deepthi-cover-2.JPG",
+    description:
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident eum explicabo, architecto assumenda inventore non earum cumque magnam facilis deserunt.",
+  },
+  {
+    name: "Abhijith's project",
+    image: "deepthi-cover-2.JPG",
+    description:
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident eum explicabo, architecto assumenda inventore non earum cumque magnam facilis deserunt.",
+  },
+];
