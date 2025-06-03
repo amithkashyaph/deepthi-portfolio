@@ -18,20 +18,21 @@ const AboutPage = () => {
           </div>
           <div className="text-white w-[70%]">
             <h1 className="text-5xl animate-fade-in-left">Hi there!</h1>
-            <p className="text-8xl animate-fade-in-right"> I'm Deepthi</p>
-            <p className="leading-[1.9] mt-6 animate-fade-in-bottom">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem,
-              numquam. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Labore, laborum! Lorem ipsum, dolor sit amet consectetur
-              adipisicing elit. Nam animi dolores pariatur mollitia voluptas id
-              fuga ullam quos! Totam, praesentium!
+            <p className="text-8xl animate-fade-in-right"> I'm Deepthi,</p>
+            <p className="leading-[1.9] mt-6 animate-fade-in-bottom text-[18px]">
+              With over 4 years of experience across 30+ residential projects,
+              branded retail layouts, and graphic design campaigns, I specialize
+              in creating spaces and visuals that tell a story. I’ve developed
+              design packs for multi-format stores across Europe, delivered 20+
+              brand identity projects, and crafted visual content that bridges
+              function with aesthetics. My approach blends structured thinking
+              with creative expression—always focused on clarity, engagement.
             </p>
-            <p className="leading-[1.9] mt-6 animate-fade-in-bottom">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem,
-              numquam. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Labore, laborum!
+            <p className="leading-[1.5] mt-5 animate-fade-in-bottom text-[18px]">
+              I believe good design isn’t just seen—it’s felt. Let’s build
+              something beautiful.
             </p>
-            <button className="border-none px-8 py-4 bg-amber-500 text-2xl rounded-xl mt-8 hover:bg-amber-600 hover:text-white cursor-pointer">
+            <button className="border-none px-6 py-3 bg-amber-500 text-xl rounded-xl mt-8 hover:bg-amber-600 hover:text-white cursor-pointer tracking-wider">
               View Portfolio
             </button>
           </div>
