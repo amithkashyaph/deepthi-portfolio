@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Navigation from "./Navigation";
 
 const Hero = () => {
@@ -7,7 +8,7 @@ const Hero = () => {
         <Navigation />
       </div>
       <div className="absolute w-[90%] mx-auto top-[10%]  h-full  flex justify-center items-center">
-        <div className="w-[60%] ml-48">
+        <div className="w-[50%] ml-48">
           <h1 className="text-8xl text-white font-bold animate-fade-in-left">
             Hello
           </h1>
@@ -29,18 +30,20 @@ const Hero = () => {
             something beautiful.
           </h3>
           <div className="flex gap-4 mt-8">
-            <button className="border-none px-6 py-3 bg-amber-500 text-[20px] rounded-3xl  hover:bg-amber-600 hover:text-white cursor-pointer w-4xs animate-fade-in-appear">
-              View Portfolio
-            </button>
-            <button className="border-none px-6 py-3 bg-amber-500 text-[20px]  rounded-3xl  hover:bg-amber-600 hover:text-white cursor-pointer  w-4xs animate-fade-in-appear">
+            <Link href={"/projects"}>
+              <button className="border-none px-6 py-3 bg-amber-500 text-[18px] tracking-wider rounded-3xl  hover:bg-amber-600 hover:text-white cursor-pointer w-4xs animate-fade-in-appear">
+                View Portfolio
+              </button>
+            </Link>
+            <button className="border-none px-6 py-3 bg-amber-500 text-[18px] tracking-wider  rounded-3xl  hover:bg-amber-600 hover:text-white cursor-pointer  w-4xs animate-fade-in-appear">
               <a href="/CV.pdf" target="_blank" rel="noopener noreferrer">
                 Download CV
               </a>
             </button>
           </div>
         </div>
-        <div className="w-[30%] mb-72">
-          <img src="/hero.png" alt="" className=" object-cover  z-20" />
+        <div className="w-[40%] mb-60">
+          <img src="/02.png" alt="" className=" object-cover h-[800px]" />
         </div>
       </div>
     </div>
