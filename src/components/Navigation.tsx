@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Navigation = () => {
   return (
-    <div className="flex w-[80%] justify-between mx-auto bg-gray-950 py-6 px-12 rounded-3xl text-white uppercase tracking-wider">
+    <div className="flex w-[80%] justify-between mx-auto bg-[rgb(13,2,2)]  py-6 px-12 rounded-3xl text-white uppercase tracking-wider">
       <div className="flex gap-2">
         <Image
           aria-hidden
