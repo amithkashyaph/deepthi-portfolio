@@ -4,7 +4,7 @@ import Image from "next/image";
 const AboutPage = () => {
   return (
     <>
-      <div className="h-screen bg-gray-600 bg-[url(/deepthi-cover-2.jpg)] bg-blend-overlay">
+      <div className="h-screen bg-gray-600 bg-[url(/deepthi-cover-2.JPG)] bg-blend-overlay">
         <Navigation />
         <div className="flex items-center w-[1200px] mx-auto gap-16 mt-32">
           <div className="">
@@ -18,7 +18,7 @@ const AboutPage = () => {
           </div>
           <div className="text-white w-[70%]">
             <h1 className="text-5xl animate-fade-in-left">Hi there!</h1>
-            <p className="text-8xl animate-fade-in-right"> I'm Deepthi,</p>
+            <p className="text-8xl animate-fade-in-right"> I&apos;m Deepthi,</p>
             <p className="leading-[1.9] mt-6 animate-fade-in-bottom text-[18px]">
               With over 4 years of experience across 30+ residential projects,
               branded retail layouts, and graphic design campaigns, I specialize
