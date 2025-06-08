@@ -18,6 +18,7 @@ export const workExperiences = [
       "Branding & Layout Design",
       "Project Coordination 3D Rendering & Visualization",
     ],
+    companyLogo: "/tesco.jpg",
   },
   {
     company: "Ashkam",
@@ -38,6 +39,7 @@ export const workExperiences = [
       "Branding & Layout Design",
       "Project Coordination 3D Rendering & Visualization",
     ],
+    companyLogo: "/ashkam.jpeg",
   },
   {
     company: "Freelance ",
@@ -58,6 +60,7 @@ export const workExperiences = [
       "Branding & Layout Design",
       "Project Coordination 3D Rendering & Visualization",
     ],
+    companyLogo: "",
   },
   {
     company: "buildAhome ",
@@ -77,6 +80,7 @@ export const workExperiences = [
       "Branding & Layout Design",
       "Project Coordination 3D Rendering & Visualization",
     ],
+    companyLogo: "/buildahome.webp",
   },
 ];
 
@@ -360,7 +364,7 @@ export const interiorProjects = [
   {
     id: 10,
     name: "Ms. Pooja's residence",
-    images: ["jagadish-residence/01.jpg", "jagadish-residence/02.jpg"],
+    images: ["/jagadish-residence/01.jpg", "/jagadish-residence/02.jpg"],
     shortDescription: "1200 sq.ft | Bengaluru | Karnataka",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident eum explicabo, architecto assumenda inventore non earum cumque magnam facilis deserunt.",
