@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { workExperiences } from "../utils/constants";
 import { BriefcaseIcon } from "@heroicons/react/24/outline"; // Example icon
 
@@ -18,14 +19,25 @@ const WorkExperience = () => {
                 <div className="shadow-md rounded-lg px-6 hover:shadow-lg transition duration-300 ease-in-out  bg-transparent">
                   <div className="md:flex md:justify-between md:items-baseline mb-3">
                     <div>
-                      <h3 className="text-xl font-semibold  dark:text-indigo-400 tracking-tight">
+                      <h3 className="text-[22px] font-semibold  dark:text-indigo-400 tracking-tight ">
                         {experience.title}
                       </h3>
-                      <p className=" dark:text-gray-300 text-sm">
-                        {experience.company}
-                      </p>
+                      <div className="flex items-center gap-3">
+                        {experience.companyLogo && (
+                          <Image
+                            src={experience.companyLogo}
+                            alt="company logo"
+                            className="h-4"
+                            width={64}
+                            height={18}
+                          />
+                        )}
+                        <p className=" dark:text-gray-300 text-[16px] uppercase tracking-wider">
+                          {experience.company}
+                        </p>
+                      </div>
                     </div>
-                    <p className=" dark:text-gray-400 text-sm italic">
+                    <p className=" dark:text-gray-400 text-sm italic text-[16px]">
                       {experience.years}
                     </p>
                   </div>
@@ -35,7 +47,9 @@ const WorkExperience = () => {
                     </h4>
                     <ul className="list-disc pl-5  dark:text-gray-300 space-y-2 text-sm">
                       {experience.description.map((desc, i) => (
-                        <li key={i}>{desc}</li>
+                        <li key={i} className="text-[16px]">
+                          {desc}
+                        </li>
                       ))}
                     </ul>
                   </div>
@@ -48,7 +62,7 @@ const WorkExperience = () => {
                         {experience.skills.map((skill, i) => (
                           <span
                             key={i}
-                            className="inline-flex items-center rounded-full bg-indigo-100 dark:bg-indigo-700 px-3 py-1 text-xs font-medium text-indigo-700 dark:text-indigo-300"
+                            className="inline-flex items-center rounded-full bg-indigo-100 dark:bg-indigo-700 px-3 py-1 text-xs font-medium text-indigo-700 dark:text-indigo-300 text-[12px]"
                           >
                             {skill}
                           </span>
