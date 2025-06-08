@@ -1,9 +1,10 @@
 import Link from "next/link";
 import Navigation from "./Navigation";
+import Image from "next/image";
 
 const Hero = () => {
   return (
-    <div className="h-screen bg-gray-600 bg-[url(/deepthi-cover-2.jpg)] bg-blend-overlay  relative w-[100%]">
+    <div className="h-screen bg-gray-600 bg-[url(/deepthi-cover-2.JPG)] bg-blend-overlay  relative w-[100%]">
       <div className="z-30">
         <Navigation />
       </div>
@@ -13,7 +14,7 @@ const Hero = () => {
             Hello
           </h1>
           <div className="text-7xl text-white font-bold">
-            <span className="block animate-fade-in-right">I'm </span>
+            <span className="block animate-fade-in-right">I&apos;m </span>
             <p className="inline-block text-9xl animate-fade-in-bottom">
               Deepthi,
             </p>
@@ -43,7 +44,13 @@ const Hero = () => {
           </div>
         </div>
         <div className="w-[40%] mb-60">
-          <img src="/02.png" alt="" className=" object-cover h-[800px]" />
+          <Image
+            src="/02.png"
+            alt=""
+            className=" object-cover h-[800px]"
+            height={800}
+            width={690}
+          />
         </div>
       </div>
     </div>
