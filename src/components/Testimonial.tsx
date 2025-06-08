@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useState } from "react";
 
 const testimonialData = [
@@ -25,10 +26,10 @@ const testimonialData = [
 ];
 
 const Testimonial = () => {
-  let [selectedIndex, setSelectedIndex] = useState(0);
+  const [selectedIndex, setSelectedIndex] = useState(0);
 
   const nextTestimonial = () => {
-    selectedIndex++;
+    setSelectedIndex((prevIndex) => prevIndex++);
     if (selectedIndex > testimonialData.length - 1) {
       setSelectedIndex(0);
     } else {
@@ -37,7 +38,7 @@ const Testimonial = () => {
   };
 
   const previousTestimonial = () => {
-    selectedIndex--;
+    setSelectedIndex((prevValue) => prevValue--);
     if (selectedIndex < 0) {
       setSelectedIndex(testimonialData.length - 1);
     } else {
@@ -49,9 +50,10 @@ const Testimonial = () => {
     <div className="flex flex-col gap-20 items-center justify-center">
       <h2 className="text-4xl text-center text-white mt-48">Testimonials</h2>
       <div className="w-[800px] bg-transparent flex rounded-2xl gap-8 items-center px-8 py-4 relative shadow-white">
-        <img
+        <Image
           src={testimonialData[selectedIndex].imagePath}
           className="h-56 scale-130 pl-10 rounded-2xl rounded-bl-2xl"
+          alt="customer image"
         />
         <blockquote className="pl-10">
           <p className="text-[20px] font-semibold text-white tracking-tight leading-[1.5]">
