@@ -3,27 +3,7 @@
 import { useState } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import Image from "next/image";
-
-const testimonials = [
-  {
-    quote:
-      "🌟 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, repellendus nobis excepturi fugit libero sed neque! Ad molestias excepturi dolorum delectus repellendus, ratione nulla iure sunt voluptas quas, cupiditate earum?",
-    name: "Alice",
-    imagePath: "deepthi.jpg",
-  },
-  {
-    quote:
-      "💡 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi suscipit pariatur excepturi similique nesciunt soluta ducimus. Doloremque, qui eveniet. Fugit harum veniam voluptas consequatur labore, pariatur, quasi ut, similique rem culpa vel ex quo autem obcaecati doloremque nulla at consequuntur.",
-    name: "Bob",
-    imagePath: "amith.png",
-  },
-  {
-    quote:
-      "🚀 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione deleniti reiciendis quasi architecto delectus sapiente enim reprehenderit corrupti inventore. Sed!",
-    name: "Charlie",
-    imagePath: "amith.png",
-  },
-];
+import { testimonials } from "@/utils/constants";
 
 export default function TestimonialSlider() {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -62,7 +42,13 @@ export default function TestimonialSlider() {
             )}`}
           >
             <div className=" w-full">
-              <Image src={t.imagePath} alt="" className="h-24 mx-auto" />
+              <Image
+                src={t.imagePath}
+                alt=""
+                className=" mx-auto"
+                height={200}
+                width={100}
+              />
             </div>
 
             <p className="text-lg text-white">{t.quote}</p>
@@ -71,19 +57,23 @@ export default function TestimonialSlider() {
         ))}
       </div>
 
-      <div className="flex justify-between items-center mt-6 px-4">
-        <button
-          onClick={prev}
-          className="p-2 bg-white rounded-full shadow hover:bg-gray-100 transition"
-        >
-          <ChevronLeft className="w-5 h-5" />
-        </button>
-        <button
-          onClick={next}
-          className="p-2 bg-white rounded-full shadow hover:bg-gray-100 transition"
-        >
-          <ChevronRight className="w-5 h-5" />
-        </button>
+      <div className="flex justify-center items-center mt-6 px-4 gap-10">
+        <div className="flex justify-center items-center">
+          <button
+            onClick={prev}
+            className="p-2 bg-white rounded-full shadow  transition cursor-pointer hover:bg-red-900 hover:text-white"
+          >
+            <ChevronLeft className="w-6 h-6" />
+          </button>
+        </div>
+        <div>
+          <button
+            onClick={next}
+            className="p-2 bg-white rounded-full shadow  transition cursor-pointer hover:bg-red-900 hover:text-white"
+          >
+            <ChevronRight className="w-6 h-6" />
+          </button>
+        </div>
       </div>
     </div>
   );

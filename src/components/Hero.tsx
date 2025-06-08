@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <div className="h-screen bg-gray-600 bg-[url(/deepthi-cover-2.JPG)] bg-blend-overlay  relative w-[100%]">
+    <div className="h-screen bg-gray-600 bg-[url(/deepthi-cover-2.JPG)] bg-blend-overlay  relative w-[100%] overflow-hidden">
       <div className="z-30">
         <Navigation />
       </div>
@@ -23,7 +23,7 @@ const Hero = () => {
             a space shaper and visual storyteller. With a background in
             architecture and a passion for design that speaks, I love blending
             structure with creativity. Whether it’s designing a cozy home, a
-            smart retail layout, or a striking brand identity, I aim to make
+            smart retail layout or a striking brand identity, I aim to make
             every project meaningful and visually compelling.
           </h3>
           <h3 className="text-white text-[20px] mt-6 animate-fade-in-appear">

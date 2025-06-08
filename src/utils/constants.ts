@@ -500,3 +500,24 @@ export const allProjects = [
   ...interiorProjects,
   ...graphicDesignProjects,
 ];
+
+export const testimonials = [
+  {
+    quote:
+      "🌟 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, repellendus nobis excepturi fugit libero sed neque! Ad molestias excepturi dolorum delectus repellendus, ratione nulla iure sunt voluptas quas, cupiditate earum?",
+    name: "Alice",
+    imagePath: "/deepthi.jpg",
+  },
+  {
+    quote:
+      "💡 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi suscipit pariatur excepturi similique nesciunt soluta ducimus. Doloremque, qui eveniet. Fugit harum veniam voluptas consequatur labore, pariatur, quasi ut, similique rem culpa vel ex quo autem obcaecati doloremque nulla at consequuntur.",
+    name: "Bob",
+    imagePath: "/amith.png",
+  },
+  {
+    quote:
+      "🚀 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione deleniti reiciendis quasi architecto delectus sapiente enim reprehenderit corrupti inventore. Sed!",
+    name: "Charlie",
+    imagePath: "/amith.png",
+  },
+];
