@@ -9,7 +9,10 @@ interface Params {
 
 const ProjectDetails = async ({ params }: Params) => {
   const projectId = (await params).projectId;
-  const projectDetails = allProjects[projectId - 1];
+
+  const index = Number(projectId) - 1;
+  const projectDetails = allProjects[index];
+
   return (
     <main>
       <ProjectHero4
@@ -31,5 +34,11 @@ const ProjectDetails = async ({ params }: Params) => {
     </main>
   );
 };
+
+export async function generateStaticParams() {
+  return allProjects.map((project) => ({
+    projectId: project.id.toString(),
+  }));
+}
 
 export default ProjectDetails;
