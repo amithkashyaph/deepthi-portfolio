@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
+import Image from "next/image";
 
 const testimonials = [
   {
@@ -61,7 +62,7 @@ export default function TestimonialSlider() {
             )}`}
           >
             <div className=" w-full">
-              <img src={t.imagePath} alt="" className="h-24 mx-auto" />
+              <Image src={t.imagePath} alt="" className="h-24 mx-auto" />
             </div>
 
             <p className="text-lg text-white">{t.quote}</p>
