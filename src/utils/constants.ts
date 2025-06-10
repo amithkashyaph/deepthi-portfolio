@@ -306,26 +306,26 @@ export const exteriorProjects = [
 ];
 
 export const interiorProjects = [
-  {
-    id: 8,
-    name: "Mr. Sreekanth's residence",
-    images: ["/jagadish-residence/01.jpg", "/jagadish-residence/02.jpg"],
-    shortDescription: "1200 sq.ft | Bengaluru | Karnataka",
-    description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident eum explicabo, architecto assumenda inventore non earum cumque magnam facilis deserunt.",
-    additionalInfo: {
-      status: "Completed",
-      location: "Ozone Urbana",
-      structure: "G+2",
-      plotArea: "1,200 sq.ft",
-      builtupArea: "5,270 sq.ft",
-      type: "Residential + Office Duplex",
-      vastu: "compliant",
-    },
-    video: "",
-    designHighlights: [],
-    toolsUsed: [],
-  },
+  // {
+  //   id: 8,
+  //   name: "Mr. Sreekanth's residence",
+  //   images: ["/jagadish-residence/01.jpg", "/jagadish-residence/02.jpg"],
+  //   shortDescription: "1200 sq.ft | Bengaluru | Karnataka",
+  //   description:
+  //     "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident eum explicabo, architecto assumenda inventore non earum cumque magnam facilis deserunt.",
+  //   additionalInfo: {
+  //     status: "Completed",
+  //     location: "Ozone Urbana",
+  //     structure: "G+2",
+  //     plotArea: "1,200 sq.ft",
+  //     builtupArea: "5,270 sq.ft",
+  //     type: "Residential + Office Duplex",
+  //     vastu: "compliant",
+  //   },
+  //   video: "",
+  //   designHighlights: [],
+  //   toolsUsed: [],
+  // },
   {
     id: 9,
     name: "Ms. Hari Priya's residence",
@@ -361,26 +361,26 @@ export const interiorProjects = [
     designHighlights: [],
     toolsUsed: [],
   },
-  {
-    id: 10,
-    name: "Ms. Pooja's residence",
-    images: ["/jagadish-residence/01.jpg", "/jagadish-residence/02.jpg"],
-    shortDescription: "1200 sq.ft | Bengaluru | Karnataka",
-    description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident eum explicabo, architecto assumenda inventore non earum cumque magnam facilis deserunt.",
-    additionalInfo: {
-      status: "Completed",
-      location: "Ozone Urbana",
-      structure: "G+2",
-      plotArea: "1,200 sq.ft",
-      builtupArea: "5,270 sq.ft",
-      type: "Residential + Office Duplex",
-      vastu: "compliant",
-    },
-    video: "",
-    designHighlights: [],
-    toolsUsed: [],
-  },
+  // {
+  //   id: 10,
+  //   name: "Ms. Pooja's residence",
+  //   images: ["/jagadish-residence/01.jpg", "/jagadish-residence/02.jpg"],
+  //   shortDescription: "1200 sq.ft | Bengaluru | Karnataka",
+  //   description:
+  //     "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident eum explicabo, architecto assumenda inventore non earum cumque magnam facilis deserunt.",
+  //   additionalInfo: {
+  //     status: "Completed",
+  //     location: "Ozone Urbana",
+  //     structure: "G+2",
+  //     plotArea: "1,200 sq.ft",
+  //     builtupArea: "5,270 sq.ft",
+  //     type: "Residential + Office Duplex",
+  //     vastu: "compliant",
+  //   },
+  //   video: "",
+  //   designHighlights: [],
+  //   toolsUsed: [],
+  // },
 ];
 
 export const graphicDesignProjects = [
