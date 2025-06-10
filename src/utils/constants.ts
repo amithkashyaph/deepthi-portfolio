@@ -504,20 +504,20 @@ export const allProjects = [
 export const testimonials = [
   {
     quote:
-      "🌟 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, repellendus nobis excepturi fugit libero sed neque! Ad molestias excepturi dolorum delectus repellendus, ratione nulla iure sunt voluptas quas, cupiditate earum?",
-    name: "Alice",
-    imagePath: "/deepthi.jpg",
+      "Working with Deepthi was a wonderful experience from start to finish. She took the time to truly understand our needs and desires,  We especially appreciated her innovative ideas for space utilization and commitment to ensuring our home is bright and well-ventilated. she also beautifully incorporated our requests for open spaces and a traditional aesthetic. We highly recommend her collaborative and thoughtful approach.",
+    name: "Mr. Mohan",
+    imagePath: "/mohan-residence/mohan-review.jpeg",
   },
   {
     quote:
-      "💡 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi suscipit pariatur excepturi similique nesciunt soluta ducimus. Doloremque, qui eveniet. Fugit harum veniam voluptas consequatur labore, pariatur, quasi ut, similique rem culpa vel ex quo autem obcaecati doloremque nulla at consequuntur.",
-    name: "Bob",
-    imagePath: "/amith.png",
+      "I was introduced to Deepthi as the architect for the house, which I wanted to construct almost 4 years back. For a guy who had zero knowledge of house construction, Deepthi helped me sail through like a breeze. She has in-depth knowledge of planning, 3d design, vastu, raw materials, structure, colours, light, ventialtion, flooring, etc. She helped me with her input in every stage of construction. She also helped me with the costs, suggesting alternatives that would suit my budget. She also did regular site visits to ensure that the construction and planning are in sync. She has great knowledge of aesthetic as well as modern style of house construction. Overall, it was a pleasure working with Deepthi, and given a chance, I would work with her again for my next construction.",
+    name: "Mr. Arjun",
+    imagePath: "/arjun-review.jpeg",
   },
   {
     quote:
-      "🚀 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione deleniti reiciendis quasi architecto delectus sapiente enim reprehenderit corrupti inventore. Sed!",
-    name: "Charlie",
-    imagePath: "/amith.png",
+      "I had the pleasure of working with Deepthi on designing my house, and I couldn't be happier with the results. The ventilation in the house is absolutely amazing—it's super well-lit and incredibly breezy, making the space feel open and comfortable throughout the day. Even now, when guests come home, the first thing they say is “Wow, looks like you don’t need to turn on the lights at all during the day”. We also have saved a lot on power bills due to this!! Her selection of materials and the color combination for the floor tiles and paint were spot-on, perfectly complementing the overall aesthetic of the house. She demonstrated exceptional attention to detail and a keen sense of design, ensuring every element came together beautifully. The best part! All the designs were also vaastu compliant. What truly stood out was her professionalism and dedication. Designs were always delivered on time, and any corrections I requested were made promptly and efficiently. She went above and beyond in certain design choices that I initially hesitated about, but they turned out to be brilliant decisions once the house was complete. Her ability to foresee potential issues with some of my suggestions and provide alternatives saved us from future headaches and ensured the house was built to perfection. I wholeheartedly recommend Deepthi to anyone looking for a talented and reliable architect. She truly made my dream home a reality!",
+    name: "Mr. Abhijith",
+    imagePath: "/abhijith-residence/abhijith-review.jpeg",
   },
 ];
