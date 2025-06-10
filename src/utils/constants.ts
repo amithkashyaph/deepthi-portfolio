@@ -327,7 +327,7 @@ export const interiorProjects = [
   //   toolsUsed: [],
   // },
   {
-    id: 9,
+    id: 8,
     name: "Ms. Hari Priya's residence",
     images: [
       "/hp-residence/1.jpeg",
@@ -385,7 +385,7 @@ export const interiorProjects = [
 
 export const graphicDesignProjects = [
   {
-    id: 11,
+    id: 9,
     name: "Malt & Mash",
     images: ["/graphic-design/01.jpeg"],
     shortDescription: "Craft Beer Menu Design",
@@ -404,7 +404,7 @@ export const graphicDesignProjects = [
     toolsUsed: ["Adobe InDesign", "Adobe Illustrator", "Photoshop"],
   },
   {
-    id: 12,
+    id: 10,
     name: "Intent & Impact",
     images: ["/graphic-design/02.jpeg"],
     shortDescription: "Visual Narrative",
@@ -422,7 +422,7 @@ export const graphicDesignProjects = [
     toolsUsed: ["Adobe InDesign", "Adobe Illustrator"],
   },
   {
-    id: 13,
+    id: 11,
     name: "Mother’s Day Sale– Promotional Graphic",
     images: ["/graphic-design/03.jpeg"],
     shortDescription: "Bold blooms meet bold deals.",
@@ -439,7 +439,7 @@ export const graphicDesignProjects = [
     toolsUsed: ["Adobe InDesign", "Adobe Illustrator"],
   },
   {
-    id: 14,
+    id: 12,
     name: "Identity – Branding for MARK STUDIO",
     images: ["/graphic-design/04.jpeg", "/graphic-design/05.jpeg"],
     shortDescription: "Precision. Vision. Identity.",
@@ -457,7 +457,7 @@ export const graphicDesignProjects = [
     toolsUsed: ["Adobe InDesign", "Adobe Illustrator", "Photoshop"],
   },
   {
-    id: 15,
+    id: 13,
     name: "Earth Investment Campaign – Awareness Graphic",
     images: ["/graphic-design/06.jpeg"],
     shortDescription: "Secure Tomorrow. Invest in Earth.",
@@ -475,7 +475,7 @@ export const graphicDesignProjects = [
     toolsUsed: ["Adobe InDesign", "Adobe Illustrator"],
   },
   {
-    id: 16,
+    id: 14,
     name: "College Fest – Event Promo Graphic",
     images: ["/graphic-design/07.jpeg"],
     shortDescription: "Shaping the Future of Design",
