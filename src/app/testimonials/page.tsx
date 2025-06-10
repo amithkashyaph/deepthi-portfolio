@@ -6,7 +6,7 @@ const TestimonialsPage = () => {
     <>
       <div className="h-screen bg-gray-600 bg-[url(/deepthi-cover-2.JPG)] bg-blend-overlay">
         <Navigation />
-        <div className="min-h-screen  flex items-center justify-center">
+        <div className="flex items-center justify-center">
           <TestimonialSlider />
         </div>
       </div>
