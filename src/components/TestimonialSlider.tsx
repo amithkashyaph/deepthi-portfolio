@@ -4,6 +4,7 @@ import { useState } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import Image from "next/image";
 import { testimonials } from "@/utils/constants";
+import TruncatableText from "./TruncateableText";
 
 export default function TestimonialSlider() {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -30,28 +31,32 @@ export default function TestimonialSlider() {
   };
 
   return (
-    <div className="relative w-full max-w-md mx-auto py-10">
-      <div className="relative h-96">
+    <div className="relative w-[580px] mx-auto mt-10">
+      <h1 className="text-white text-center text-4xl my-10 tracking-widest">
+        TESTIMONIALS
+      </h1>
+      <div className="relative w-full h-[580px]">
         {testimonials.map((t, index) => (
           <div
             key={index}
-            className={`absolute top-0 left-0 w-full h-full ${
+            className={`absolute top-0 left-0 w-full overflow-scroll h-[580px] flex flex-col gap-8 p-10 ${
               currentIndex !== index ? "bg-red-900/60" : "bg-red-900"
             } rounded-2xl shadow-lg p-6 text-center transition-all duration-500 ease-in-out transform ${getPosition(
               index
             )}`}
           >
-            <div className=" w-full">
+            <div className="">
               <Image
                 src={t.imagePath}
                 alt=""
                 className=" mx-auto"
-                height={200}
-                width={100}
+                width={250}
+                height={350}
               />
             </div>
 
-            <p className="text-lg text-white">{t.quote}</p>
+            <TruncatableText text={t.quote} maxLength={220} />
+
             <p className="mt-4 text-sm text-amber-50">— {t.name}</p>
           </div>
         ))}
@@ -69,7 +74,7 @@ export default function TestimonialSlider() {
         <div>
           <button
             onClick={next}
-            className="p-2 bg-white rounded-full shadow  transition cursor-pointer hover:bg-red-900 hover:text-white"
+            className="p-2 bg-white rounded-full shadow  transition cursor-pointer hover:bg-red-900 hover:text-white z-100"
           >
             <ChevronRight className="w-6 h-6" />
           </button>
