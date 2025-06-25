@@ -33,7 +33,7 @@ export default function TestimonialSlider() {
   return (
     <div className="relative w-[580px] mx-auto mt-10">
       <h1 className="text-white text-center text-4xl my-10 tracking-widest">
-        TESTIMONIALS
+        Testimonials
       </h1>
       <div className="relative w-full h-[580px]">
         {testimonials.map((t, index) => (
