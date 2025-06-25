@@ -32,7 +32,7 @@ export default function TestimonialSlider() {
 
   return (
     <div className="relative w-[580px] mx-auto mt-10">
-      <h1 className="text-white text-center text-4xl my-10 tracking-widest">
+      <h1 className="text-white text-center text-4xl my-10 tracking-widest uppercase">
         Testimonials
       </h1>
       <div className="relative w-full h-[580px]">
