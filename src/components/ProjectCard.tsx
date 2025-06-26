@@ -62,10 +62,7 @@ const ProjectCard = () => {
               href={`/projects/${encodeURIComponent(project.id)}`}
               key={project.id}
             >
-              <div
-                // className="w-[350px] p-5 flex-shrink-0  rounded-xl overflow-hidden  hover:opacity-100 hover:scale-[1.05] bg-red-900/20 text-white hover:bg-red-950 cursor-pointer">
-                className="w-[350px] h-[430px] p-5 flex-shrink-0 rounded-xl overflow-hidden bg-red-900/20 hover:bg-red-950 hover:opacity-100 hover:scale-[.98] text-white cursor-pointer transition duration-300 relative"
-              >
+              <div className="w-[350px] h-[430px] p-5 flex-shrink-0 rounded-xl overflow-hidden bg-red-900/20 hover:bg-red-950 hover:opacity-100 hover:scale-[.98] text-white cursor-pointer transition duration-300 relative">
                 <div className="relative md:max-w-[350px] h-[220px]">
                   <Image
                     src={project.images[0]}
