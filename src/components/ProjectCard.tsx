@@ -3,14 +3,15 @@ import {
   exteriorProjects,
   interiorProjects,
   graphicDesignProjects,
+  personalProjectsAndAssignments,
 } from "../utils/constants";
 import Image from "next/image";
 
 const ProjectCard = () => {
   return (
     <div className="w-full mt-16 opacity-100 overflow-x-hidden">
-      <h1 className="text-white text-center text-5xl mb-10 uppercase tracking-widest">
-        Projects
+      <h1 className="text-white text-center text-5xl mb-8 uppercase tracking-wider">
+        Concepts & Creations
       </h1>
       <div className="mx-auto w-[80%] my-20">
         <h3 className=" text-white text-3xl mb-10 uppercase tracking-widest flex justify-baseline">
