@@ -495,10 +495,119 @@ export const graphicDesignProjects = [
   },
 ];
 
+export const personalProjectsAndAssignments = [
+  {
+    id: 15,
+    name: "Resume Design – Amber Jones",
+    images: ["/personal-projects-assignments/01.jpg"],
+    shortDescription: "Confidence in Contrast.",
+    description:
+      "This modern resume design for Amber Jones is built on a bold two-column layout that blends clarity, professionalism, and personality. With a striking color palette and structured visual hierarchy, it stands out while remaining functional for both print and digital use.",
+    additionalInfo: null,
+    designHighlights: [
+      "Two-column grid system separates key content types—bio, contact, and experience on the left; skills, languages, and education on the right—for enhanced clarity and scanability.",
+      "Red-black-white palette brings visual contrast and branding cohesion, with red elements guiding the reader’s eye through emphasis points like headers and company names.",
+      "A clean sans-serif font maintains high legibility, while varied weights, cases, and sizes create a strong typographic rhythm across the layout.",
+      "Minimalist icons and a professional portrait offer visual cues without overwhelming the layout, balancing design aesthetics with functional clarity.",
+      "A thick black horizontal divider provides a mid-page anchor, visually segmenting the About section from the rest of the resume.",
+      "Designed to be ATS-compatible while retaining a high level of design polish—ideal for creative professionals seeking distinction.",
+    ],
+    video: "",
+    toolsUsed: ["Adobe InDesign", "Adobe Illustrator", "Photoshop"],
+  },
+  {
+    id: 16,
+    name: "Editorial Design – Wedge of Light",
+    images: [
+      "/personal-projects-assignments/02.jpg",
+      "/personal-projects-assignments/03.jpg",
+    ],
+    shortDescription: "Light. Motion. Resilience.",
+    description:
+      "Designed around the theme 'Wedge of Light', this editorial concept draws from the architectural vision of Santiago Calatrava for the World Trade Center Transportation Hub. It explores the interplay of light, structure, and human presence to tell a story of renewal, clarity, and spatial poetry.",
+    additionalInfo: null,
+    designHighlights: [
+      "The front cover features a centered, symmetrical interior view of the Oculus, guiding the eye toward the natural light shaft and evoking a sense of verticality and hope.",
+      "A bold serif title 'WEDGE OF LIGHT' establishes narrative weight, while supporting sans-serif typography ensures clarity and a modern balance.",
+      "Subtle blue tones from the skylight set a calm, contemplative mood, enhancing the emotional tone of the imagery.",
+      "The back cover presents a minimalist exterior shot of the Oculus, with rhythmic curves and a soft gradient—from warm white to grey—invoking elegance and purity.",
+      "A solitary bird in flight introduces a poetic metaphor for freedom, subtly reinforcing the design’s aspirational theme.",
+      "Typography on the back is minimal and modern, aligned with architectural precision; a translucent band anchors the title without overpowering the composition.",
+      "A discreetly placed QR code integrates function without disrupting the visual flow, encouraging further engagement.",
+    ],
+    video: "",
+    toolsUsed: ["Adobe InDesign", "Photoshop"],
+  },
+  {
+    id: 17,
+    name: "Infographic – Hogwarts Quidditch Team Org Chart",
+    images: ["/personal-projects-assignments/04.jpg"],
+    shortDescription: "Fantasy meets Function.",
+    description:
+      "This whimsical infographic reimagines the four Hogwarts house Quidditch teams as formal organizational charts. By merging magical lore with structured design systems, it delivers a fun, fan-focused take on traditional HR visualization—bringing clarity, creativity, and house pride to the page.",
+    designHighlights: [
+      "A four-column grid structure represents each Hogwarts house equally, ensuring visual balance and thematic separation.",
+      "House crests and founder portraits introduce each section, reinforcing lore while anchoring the layout visually.",
+      "Typography blends fantasy and formality—serif and small caps titles for academic charm, paired with clean sans-serif for roles and clarity.",
+      "Captains are highlighted with ribbon banners and star icons to denote leadership within the visual hierarchy.",
+      "Subtle drop shadows, consistent spacing, and color-coded elements enhance legibility and reinforce the magic-meets-professionalism theme.",
+      "Designed to demonstrate that infographics can be both highly functional and richly thematic—especially when powered by fan culture.",
+    ],
+    additionalInfo: null,
+    video: "",
+    toolsUsed: ["Adobe Illustrator"],
+  },
+  {
+    id: 18,
+    name: "Editorial Layout – Engineering Net Zero [Type 1]",
+    images: [
+      "/personal-projects-assignments/05.jpg",
+      "/personal-projects-assignments/06.jpg",
+    ],
+    shortDescription: "Clarity through Contrast.",
+    description:
+      "This double-page editorial spread titled 'Engineering Net Zero' uses bold typographic contrast and strategic whitespace to present a climate-conscious narrative with visual sophistication. The design embraces restraint, letting structure and space communicate as powerfully as the text itself.",
+    designHighlights: [
+      "Left-hand page acts as a visual anchor, with a bold, all-caps title centrally placed—utilizing white space to create pause and emphasis before the narrative unfolds.",
+      "The asymmetrical layout balances visual weight across the spread, guiding the eye intuitively from title to body text.",
+      "A refined typographic hierarchy separates headline, subheader, and body content—ensuring clarity while maintaining an elevated tone.",
+      "Generous whitespace enhances legibility and mood, reflecting a clean, corporate tone that supports the urgency and sophistication of the subject matter.",
+      "A strict grid and margin system maintains visual discipline, with tightly controlled alignment across both pages.",
+      "The overall tone is premium, calm, and intentional—prioritizing message clarity over decorative design.",
+    ],
+    additionalInfo: null,
+    video: "",
+    toolsUsed: ["Adobe InDesign", "Photoshop"],
+  },
+  {
+    id: 19,
+    name: "Editorial Layout – Engineering Net Zero [Type 2]",
+    images: [
+      "/personal-projects-assignments/08.jpg",
+      "/personal-projects-assignments/09.jpg",
+    ],
+    shortDescription: "Content-led. Structured. Immersive.",
+    description:
+      "Option 02 of the 'Engineering Net Zero' editorial spread is a content-forward layout designed to handle dense narratives with clarity and polish. Prioritizing editorial flow and typographic structure, this version integrates the headline directly into the content, creating a seamless, immersive reading experience ideal for information-rich features.",
+    designHighlights: [
+      "Headline is integrated into the main content block, removing visual barriers and encouraging a unified reading experience.",
+      "Thoughtful paragraph styling, justification, and spacing ensure that dense content remains accessible and visually digestible.",
+      "Typography uses varied size and weight to establish hierarchy—bolded lines and capitalized callouts guide attention to key takeaways.",
+      "Editorial flow is continuous across the spread, designed to keep the reader engaged with rhythm rather than breaking into isolated sections.",
+      "Optimized for high text volume, the layout balances compact density with strong legibility—ideal for data-rich or opinion-based content.",
+      "The overall tone is polished, professional, and information-centric, supporting serious climate discourse through refined editorial design.",
+    ],
+    additionalInfo: null,
+    video: "",
+    toolsUsed: ["Adobe InDesign", "Photoshop"],
+  },
+];
+
 export const allProjects = [
   ...exteriorProjects,
   ...interiorProjects,
   ...graphicDesignProjects,
+  ...personalProjectsAndAssignments,
 ];
 
 export const testimonials = [
