@@ -30,8 +30,8 @@ const ProjectInfo = ({
       className={`${
         designHighlights && designHighlights.length
           ? "bg-black"
-          : "bg-black/60 bg-[url(/deepthi-cover-2.JPG)] bg-blend-overlay"
-      } text-white z-50 pt-20 w-full px-6`}
+          : "bg-black/70 bg-[url(/bg-option-07.png)] bg-blend-overlay bg-cover bg-center bg-no-repeat"
+      } text-white z-50 pt-16 w-full px-6`}
     >
       <div className=" w-[90%] mx-auto">
         <div className="">

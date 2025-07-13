@@ -4,7 +4,7 @@ import Image from "next/image";
 const AboutPage = () => {
   return (
     <>
-      <div className="h-screen bg-gray-600 bg-[url(/deepthi-cover-2.JPG)] bg-blend-overlay">
+      <div className="h-screen bg-gray-600 bg-[url(/bg-option-07.png)] bg-blend-overlay bg-cover bg-center bg-no-repeat">
         <Navigation />
         <div className="flex items-center w-[1200px] mx-auto gap-16 mt-32">
           <div className="">
@@ -32,9 +32,6 @@ const AboutPage = () => {
               I believe good design isn’t just seen—it’s felt. Let’s build
               something beautiful.
             </p>
-            <button className="border-none px-6 py-3 bg-amber-500 text-xl rounded-xl mt-8 hover:bg-amber-600 hover:text-white cursor-pointer tracking-wider">
-              View Portfolio
-            </button>
           </div>
         </div>
       </div>

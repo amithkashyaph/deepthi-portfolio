@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <div className="h-screen bg-gray-600 bg-[url(/deepthi-cover-2.JPG)] bg-blend-overlay  relative w-[100%] overflow-hidden">
+    <div className="h-screen bg-gray-600 bg-[url(/bg-option-07.png)] bg-blend-overlay bg-cover bg-center bg-no-repeat relative w-[100%] overflow-hidden">
       <div className="z-30">
         <Navigation />
       </div>

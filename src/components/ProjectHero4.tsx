@@ -172,7 +172,7 @@ const ProjectHero: React.FC<ProjectHeroProps> = ({
 
         {/* Bottom fade to black */}
         {images && images.length > 2 && (
-          <div className="absolute bottom-0 left-0 w-full h-16 bg-gradient-to-b from-transparent to-black z-30" />
+          <div className="absolute bottom-0 left-0 w-full bg-gradient-to-b from-transparent to-black z-30" />
         )}
       </div>
       {/* Modal */}

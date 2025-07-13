@@ -4,7 +4,7 @@ import WorkExperience from "@/components/WorkExperience";
 const WorkExperiencePage = () => {
   return (
     <>
-      <div className="h-[100%] bg-gray-600 bg-[url(/deepthi-cover-2.JPG)] bg-blend-overlay ">
+      <div className="h-[100%] bg-[url(/bg-option-07.png)] bg-blend-overlay bg-cover bg-center bg-no-repeat">
         <Navigation />
         <div>
           <WorkExperience />
