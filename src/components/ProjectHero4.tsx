@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import Navigation from "./Navigation";
 import Image from "next/image";
+import ImageModal from "./ImageModal";
 
 interface ProjectHeroProps {
   images: string[];
@@ -21,6 +22,8 @@ const ProjectHero: React.FC<ProjectHeroProps> = ({
   const [isPortrait, setIsPortrait] = useState<boolean[]>([]);
   const [autoPlay, setAutoPlay] = useState(true);
   const [isOpen, setIsOpen] = useState(false);
+  const [isImageModalOpen, setImageModalOpen] = useState(false);
+  const [selectedImage, setSelectedImage] = useState("");
 
   // Detect portrait orientation
   useEffect(() => {
@@ -56,6 +59,11 @@ const ProjectHero: React.FC<ProjectHeroProps> = ({
     setCurrent((prev) => (prev - 1 + images.length) % images.length);
   const nextSlide = () => setCurrent((prev) => (prev + 1) % images.length);
 
+  const handleImageClick = () => {
+    setSelectedImage(images[current]);
+    setImageModalOpen(true);
+  };
+
   return (
     <div className="relative">
       <div className=" z-90 w-full bg-black">
@@ -73,7 +81,7 @@ const ProjectHero: React.FC<ProjectHeroProps> = ({
           return (
             <div
               key={idx}
-              className={`absolute inset-0 transition-opacity duration-1000 ${
+              className={`absolute inset-0 transition-opacity cursor-pointer duration-1000 ${
                 isActive ? "opacity-100 z-10" : "opacity-0 z-0"
               }`}
             >
@@ -105,7 +113,10 @@ const ProjectHero: React.FC<ProjectHeroProps> = ({
         })}
 
         {/* Top overlay gradient */}
-        <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent z-20" />
+        <div
+          className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent z-20"
+          onClick={() => handleImageClick()}
+        />
 
         {/* Content */}
         <div
@@ -188,6 +199,11 @@ const ProjectHero: React.FC<ProjectHeroProps> = ({
           </div>
         </div>
       )}
+      <ImageModal
+        isOpen={isImageModalOpen}
+        onClose={() => setImageModalOpen(false)}
+        imageUrl={selectedImage}
+      />
     </div>
   );
 };
