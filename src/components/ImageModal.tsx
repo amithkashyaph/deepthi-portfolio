@@ -1,5 +1,5 @@
 // components/ImageModal.tsx
-import React, { useEffect } from "react";
+import React, { useEffect, useRef } from "react";
 
 interface ImageModalProps {
   isOpen: boolean;
@@ -12,6 +12,7 @@ const ImageModal: React.FC<ImageModalProps> = ({
   onClose,
   imageUrl,
 }) => {
+  const modalRef = useRef<HTMLDivElement>(null);
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
       if (e.key === "Escape") {
@@ -28,11 +29,21 @@ const ImageModal: React.FC<ImageModalProps> = ({
     };
   }, [isOpen, onClose]);
 
+  // Handle click outside
+  const handleBackdropClick = (e: React.MouseEvent<HTMLDivElement>) => {
+    if (modalRef.current && !modalRef.current.contains(e.target as Node)) {
+      onClose();
+    }
+  };
+
   if (!isOpen) return null;
 
   return (
-    <div className="fixed inset-0 z-50 bg-black bg-opacity-75 flex items-center justify-center">
-      <div className="relative max-w-full max-h-full">
+    <div
+      className="fixed inset-0 z-50 bg-black bg-opacity-75 flex items-center justify-center"
+      onClick={handleBackdropClick}
+    >
+      <div className="relative max-w-full max-h-full" ref={modalRef}>
         <img
           src={imageUrl}
           alt="Modal"
@@ -41,7 +52,7 @@ const ImageModal: React.FC<ImageModalProps> = ({
         />
         <button
           onClick={onClose}
-          className="absolute top-2 right-2 text-white text-2xl font-bold"
+          className="absolute top-2 right-2 text-white text-2xl font-bold cursor-pointer"
         >
           &times;
         </button>
