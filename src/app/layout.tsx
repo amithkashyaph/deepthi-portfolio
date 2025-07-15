@@ -15,8 +15,13 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Deepthi's Portfolio",
   description: "Imagine | Design",
-  viewport:
-    "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no",
+};
+
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
+  userScalable: "no",
+  maximumScale: 1,
 };
 
 export default function RootLayout({
